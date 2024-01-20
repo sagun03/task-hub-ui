@@ -1,10 +1,10 @@
 /* eslint-disable react/prop-types */
-import PublicHeader from "../Common/PublicHeader";
+import Header from "../Common/Header";
 
 const PublicLayout = ({ children }) => {
   return (
     <div>
-      <PublicHeader />
+      <Header />
       <main>{children}</main>
     </div>
   );

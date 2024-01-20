@@ -1,11 +1,11 @@
 /* eslint-disable react/prop-types */
-import PrivateHeader from "../Common/PrivateHeader";
+import Header from "../Common/Header";
 
 
 const PrivateLayout = ({ children }) => {
   return (
     <div>
-      <PrivateHeader />
+      <Header />
       <main>{children}</main>
     </div>
   );

@@ -1,6 +1,6 @@
 import useAuth from '../../hooks/useAuth.js';
 
-const PrivateHeader = () => {
+const Header = () => {
   const { user } = useAuth(); // Assuming you have an authentication context or hook
 
   return (
@@ -26,4 +26,4 @@ const PrivateHeader = () => {
   );
 };
 
-export default PrivateHeader;
+export default Header;

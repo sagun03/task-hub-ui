@@ -2,7 +2,7 @@
 import Header from "../Common/Header";
 
 
-const PrivateLayout = ({ children }) => {
+const Layout = ({ children }) => {
   return (
     <div>
       <Header />
@@ -11,4 +11,4 @@ const PrivateLayout = ({ children }) => {
   );
 };
 
-export default PrivateLayout;
+export default Layout;

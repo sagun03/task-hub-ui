@@ -4,10 +4,9 @@ import {
   BrowserRouter as Router,
   Routes,
 } from "react-router-dom";
-import PublicLayout from "../components/Layout/PublicLayout";
-import PrivateLayout from "../components/Layout/PrivateLayout";
 import Board from "../pages/Board";
 import Home from "../pages/Home";
+import Layout from "../components/Layout/Layout";
 
 
 const AppRoutes = () => {
@@ -19,18 +18,18 @@ const AppRoutes = () => {
          <Route
       path="/"
       element={
-        <PublicLayout>
+        <Layout>
           <Home />
-        </PublicLayout>
+        </Layout>
       }
     />
       <Route
         path="/board/:id"
         element={
           isAuthenticated ? (
-            <PrivateLayout>
+            <Layout>
               <Board />
-            </PrivateLayout>
+            </Layout>
           ) : (
             <Navigate to="/" />
           )

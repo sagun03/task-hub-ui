@@ -1,8 +1,22 @@
 # React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Setps to Setup application in local
 
-Currently, two official plugins are available:
+- Git clone https://github.com/sagun03/task-hub-ui.git
+- npm install (node version should be above 18)
+- npm run dev
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Setps to follow while creating the Branch
+
+- Go to develop branch
+- Fetch latest changes from repo `git pull origin develop`
+- Create a new branch using `git checkout -b branch_name`
+
+Setps to follow while pushing the Branch
+
+- Add the changes `git add .`
+- Stash your changes `git stash`
+- Fetch latest changes from repo `git pull origin develop`
+- Revert stash `git stash pop` (resolve conflicts if any)
+- Commit the changes `git commit -m "add custom message here"`
+- git push 

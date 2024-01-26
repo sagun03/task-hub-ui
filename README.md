@@ -20,3 +20,6 @@ Setps to follow while pushing the Branch
 - Revert stash `git stash pop` (resolve conflicts if any)
 - Commit the changes `git commit -m "add custom message here"`
 - git push 
+
+
+After above Create a Pull Request merging your changes to develop and send that in group chat.

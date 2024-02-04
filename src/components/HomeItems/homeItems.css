@@ -1,0 +1,19 @@
+
+.containerHomeItems{
+    padding: 10px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+p{
+    padding: 10px;
+    font-size: large;
+    align-self: center;
+}
+.homeTodoImage{
+    max-width: 50%;
+    height: auto;
+
+}
